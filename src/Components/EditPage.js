@@ -45,6 +45,11 @@ const EditPage = () => {
               onChange={handleFileUpload} />
 
             <br />
+            {selectedFile && (
+              <p className='selected-file'>Selected File: {selectedFile.name}</p>
+            )}
+
+            <br />
             <label htmlFor="reportedIssue" className='edit-label'>Reported Issues:</label>
             <br />
             <textarea id="reportedIssue" name="reportedIssue" />
@@ -83,7 +88,6 @@ const EditPage = () => {
               <button className='edit-save-btn'>Save Changes</button>
               <button className='cancel-btn'>Cancel</button>
             </div>
-           
           </form>
         </div>
       </div>
