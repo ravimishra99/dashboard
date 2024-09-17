@@ -44,7 +44,11 @@ const NewSheet = () => {
               accept='"image/*,video/*,.pdf,.doc,.doc'
               onChange={handleFileUpload} />
 
-
+            <br />
+            {selectedFile && (
+              <p className='selected-file'>Selected File: {selectedFile.name}</p>
+            )}
+            
             <br />
             <label htmlFor="reportedIssue" className='lebel'>Reported Issues:</label>
             <br />
