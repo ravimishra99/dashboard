@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.card-section {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: rgb(227, 238, 238);
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.heading {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(3, 3, 107);
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.search-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.input {
+    width: calc(100% - 110px);
+    height: 40px;
+    padding-left: 10px;
+}
+
+.search-btn {
+    height: 40px;
+    width: 100px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(3, 3, 107);
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(3, 3, 107);
+    cursor: pointer;
+}
+
+.client-info {
+    margin-top: 20px;
+    overflow-x: hidden;
+}
+
+table {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: none;
+    border-collapse: collapse;
+    overflow-x: hidden;
+   
+}
+
+th {
+    text-align: left;
+    height: 70px;
+    background-color: rgb(3, 3, 107);
+    color: white;
+    border: none;
+    overflow-x: hidden;
+}
+
+td {
+    height: 50px;
+    background-color: white;
+}
+
+.client-info .th-id {
+    width: 1%;
+    padding-left: 5px;
+}
+
+.client-info .th-client-id {
+    width: 3%;
+}
+
+.client-info .th-client-name {
+    width: 3%;
+    padding-right: 5px;
+}
+
+.client-info .th-contact {
+    width: 5%;
+}
+
+.client-info .th-received-date {
+    width: 3%;
+    padding-right: 10px;
+}
+
+.client-info .th-inventory {
+    width: 5%;
+}
+
+.client-info .th-reported-issues {
+    width: 3%;
+    padding-right: 10px;
+}
+
+.client-info .th-client-notes {
+    width: 3%;
+}
+
+.client-info .th-technician {
+    width: 5%;
+}
+
+.client-info .th-amount {
+    width: 5%;
+}
+
+.client-info .th-deadline {
+    width: 5%;
+}
+
+.client-info .th-status {
+    width: 5%;
+}
+
+.client-info .th-actions {
+    width: 7%;
+}
+
+.btns-view {
+    background-color: rgb(3, 3, 107);
+    /* padding: 5px 10px; */
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-right: 7px;
+    border: none;
+}
+
+.btns-edit {
+    background-color: rgb(233, 175, 94);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-right: 7px;
+    border: none;
+} 
+
+.btns-delete {
+    background-color: rgb(198, 44, 2);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+ .footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(3, 3, 107);
+    color: white;
+    font-weight: bold;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

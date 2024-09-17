@@ -1,0 +1,112 @@
+.edit-form-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.edit-form-content {
+    padding: 40px;
+    width: 70%;
+    background-color: rgb(227, 238, 238);
+    box-sizing: border-box;
+}
+
+.edit-form-heading {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 3, 107);
+    color: white;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.edit-form-size {
+    padding-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.edit-form-form {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.edit-form-label {
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.edit-form-input {
+    width: 100%;
+    min-height: 40px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.edit-form-textarea {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+.edit-form-receivedData, .edit-form-deadline {
+    padding: 0px 5px;
+    font-size: 18px;
+}
+
+.edit-form-uploadFile {
+    border: 1px solid #746e6e;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.edit-form-status {
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.edit-form-saving {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-save-btn {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(3, 3, 107);
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cancel-btn {
+    margin-top: 20px;
+    font-weight: 600;
+    color: rgb(3, 3, 107);
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
